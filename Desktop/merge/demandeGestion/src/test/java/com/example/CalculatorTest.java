@@ -1,0 +1,35 @@
+﻿package com.example;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class CalculatorTest {
+    
+    @Test
+    void testAdd() {
+        Calculator calc = new Calculator();
+        assertEquals(5, calc.add(2, 3));
+        assertEquals(0, calc.add(-1, 1));
+    }
+    
+    @Test
+    void testSubtract() {
+        Calculator calc = new Calculator();
+        assertEquals(2, calc.subtract(5, 3));
+        assertEquals(-2, calc.subtract(3, 5));
+    }
+    
+    @Test
+    void testMultiply() {
+        Calculator calc = new Calculator();
+        assertEquals(6, calc.multiply(2, 3));
+        assertEquals(0, calc.multiply(5, 0));
+    }
+    
+    @Test
+    void testSquare() {
+        Calculator calc = new Calculator();
+        assertEquals(16, calc.square(4));
+        assertEquals(0, calc.square(0));
+    }
+}
