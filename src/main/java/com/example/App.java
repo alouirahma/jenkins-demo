@@ -17,3 +17,6 @@ public class App {
 
         System.out.println("5^3 = " + calc.cube(5));
         System.out.println("2^10 = " + calc.power(2, 10));
+
+        System.out.println("5! = " + calc.factorial(5));
+        System.out.println("10 % 3 = " + calc.modulo(10, 3));
