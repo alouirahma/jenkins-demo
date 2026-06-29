@@ -9,3 +9,7 @@ Ce projet est utilisé pour tester le dashboard DevMedic.
 - ✅ Pull Requests
 - ✅ Lignes ajoutées/supprimées
 - ✅ Score de stabilité
+
+## Update
+
+- Test
