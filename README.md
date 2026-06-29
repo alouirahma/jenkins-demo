@@ -20,3 +20,7 @@ Ce projet est utilisé pour tester le dashboard DevMedic.
 - ✅ modulo() - Calcule le reste de division
 - ✅ removeUser() - Supprime un utilisateur
 - ✅ userExists() - Vérifie l'existence d'un utilisateur
+
+## Test
+
+- Test2

@@ -19,3 +19,5 @@ public class Calculator {
     public double power(double base, int exp) { return Math.pow(base, exp); }
 
     public int modulo(int a, int b) { return a % b; }
+
+    public int factorial(int n) { if (n <= 1) return 1; return n * factorial(n - 1); }
