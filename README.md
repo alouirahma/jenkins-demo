@@ -13,3 +13,10 @@ Ce projet est utilisé pour tester le dashboard DevMedic.
 ## Update
 
 - Test
+
+## Métriques ajoutées
+- ✅ cube() - Calcule le cube d'un nombre
+- ✅ power() - Calcule la puissance
+- ✅ modulo() - Calcule le reste de division
+- ✅ removeUser() - Supprime un utilisateur
+- ✅ userExists() - Vérifie l'existence d'un utilisateur
