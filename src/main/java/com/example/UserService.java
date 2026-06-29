@@ -26,3 +26,7 @@ public class UserService {
         users.put(id, name);
     }
 }
+
+    public void removeUser(int id) { users.remove(id); }
+
+    public boolean userExists(int id) { return users.containsKey(id); }
