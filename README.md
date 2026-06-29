@@ -1,3 +1,11 @@
 ﻿# jenkins-demo - Test DevMedic
 
-Projet de test pour le dashboard DevMedic.
+Ce projet est utilisé pour tester le dashboard DevMedic.
+
+## Métriques testées
+- ✅ Commits normaux
+- ✅ Force pushes
+- ✅ Branches actives/obsolètes
+- ✅ Pull Requests
+- ✅ Lignes ajoutées/supprimées
+- ✅ Score de stabilité
