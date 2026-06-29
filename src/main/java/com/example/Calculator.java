@@ -9,3 +9,5 @@ public class Calculator {
         return a / b; 
     }
 }
+
+    public int square(int x) { return x * x; }
