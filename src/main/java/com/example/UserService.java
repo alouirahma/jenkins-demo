@@ -10,9 +10,19 @@ public class UserService {
         users.put(1, "Alice");
         users.put(2, "Bob");
         users.put(3, "Charlie");
+        users.put(4, "Diana");
+        users.put(5, "Eve");
     }
     
     public String getUserName(int id) {
-        return users.getOrDefault(id, "Inconnu");
+        return users.getOrDefault(id, "Utilisateur inconnu");
+    }
+    
+    public int getUserCount() {
+        return users.size();
+    }
+    
+    public void addUser(int id, String name) {
+        users.put(id, name);
     }
 }
