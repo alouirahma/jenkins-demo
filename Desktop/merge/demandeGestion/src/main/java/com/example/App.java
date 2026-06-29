@@ -1,0 +1,9 @@
+﻿package com.example;
+
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello DevMedic!");
+        Calculator calc = new Calculator();
+        System.out.println("10 + 20 = " + calc.add(10, 20));
+    }
+}
