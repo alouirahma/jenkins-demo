@@ -13,3 +13,9 @@ public class Calculator {
     public int square(int x) { return x * x; }
 
     public int cube(int x) { return x * x * x; }
+
+    public int cube(int x) { return x * x * x; }
+
+    public double power(double base, int exp) { return Math.pow(base, exp); }
+
+    public int modulo(int a, int b) { return a % b; }
