@@ -8,3 +8,5 @@ public class Calculator {
 }
 
     public int square(int x) { return x * x; }
+
+    public double power(double base, int exp) { return Math.pow(base, exp); }
